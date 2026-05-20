@@ -894,27 +894,36 @@ import emoji
 
 #_______________________________________________________________________________________________________________
 
-class  metro_station():
-    def __init__(self,people,station,destiny):
-        self.people = people
-        self.station = station
-        self.destiny = destiny
+# class  metro_station():
+#     def __init__(self,people,station,destiny):
+#         self.people = people
+#         self.station = station
+#         self.destiny = destiny
+#
+#     def dorbin (people):
+#         counter = 0
+#         woman = []
+#         men = []
+#         for person in range(1,100):
+#             if person % 2 == 0:
+#                 woman.append()
+#             else:
+#                 men.append()
+#             counter =+ 1
+#         return woman,men,counter
+#
+# new = metro_station('milad' , 'beheshti' ,'sohrevardi')
+# print(new.dorbin())
+# print()
 
-    def dorbin (people):
-        counter = 0
-        woman = []
-        men = []
-        for person in range(1,100):
-            if person % 2 == 0:
-                woman.append()
-            else:
-                men.append()
-            counter =+ 1
-        return woman,men,counter
+import collections
+from collections import Counter
 
-new = metro_station('milad' , 'beheshti' ,'sohrevardi')
-print(new.dorbin())
-print()
+
+
+mydata = [1,2,3,1,4,5,7,2,3,4,5]
+Counter(mydata)
+print(Counter)
 
 
 
